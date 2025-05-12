@@ -1,0 +1,23 @@
+name: ainance_flutter
+version: 1.0.0+1
+description: Ainance shared trading app for Android
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/ainance_logo.png
+    - assets/splash_screen.png
+    - assets/icons/icon_round.png
+    - assets/icons/icon_square.png
